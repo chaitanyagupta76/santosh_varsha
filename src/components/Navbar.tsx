@@ -50,6 +50,13 @@ export default function Navbar() {
                         <a
                             key={item.href}
                             href={item.href}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                const target = document.querySelector(item.href);
+                                if (target) {
+                                    target.scrollIntoView({ behavior: "smooth" });
+                                }
+                            }}
                             className="text-xs tracking-[0.15em] uppercase text-textDark hover:text-gold transition-colors font-sans"
                         >
                             {item.label}
@@ -90,8 +97,17 @@ export default function Navbar() {
                                 <a
                                     key={item.href}
                                     href={item.href}
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                    className="text-sm tracking-widest uppercase text-textDark font-sans"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setIsMobileMenuOpen(false);
+                                        const target = document.querySelector(item.href);
+                                        if (target) {
+                                            setTimeout(() => {
+                                                target.scrollIntoView({ behavior: "smooth" });
+                                            }, 100);
+                                        }
+                                    }}
+                                    className="text-sm tracking-widest uppercase text-textDark font-sans block w-full text-center py-2"
                                 >
                                     {item.label}
                                 </a>
