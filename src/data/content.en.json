@@ -4,7 +4,8 @@
     "brideGroom": "Bride & Groom",
     "journey": "Our Journey",
     "venue": "Venue",
-    "liveStream": "Live Stream",
+    "reception": "Reception",
+    "liveStream": "Live",
     "gallery": "Gallery"
   },
   "hero": {
@@ -30,19 +31,19 @@
     "title": "OUR JOURNEY",
     "events": [
       {
-        "title": "First Meeting",
-        "date": "October 2023",
-        "description": "We met through mutual friends and instantly clicked over a cup of coffee."
+        "title": "Pelli Chupulu",
+        "date": "October 8, 2025",
+        "description": "Two souls, one destined moment — when we first saw each other in the cherished tradition of Pelli Chupulu, hearts whispered what words couldn't say."
       },
       {
-        "title": "The Proposal",
-        "date": "February 2025",
-        "description": "A beautiful surprise proposal overlooking the mountains."
+        "title": "The Engagement",
+        "date": "November 15, 2025",
+        "description": "Surrounded by the warmth of family and the glow of blessings, we exchanged rings — a sacred promise woven with joy, love, and the cheers of those we hold dearest."
       },
       {
-        "title": "Engagement",
-        "date": "June 2025",
-        "description": "We officially exchanged rings in the presence of our beloved families."
+        "title": "The Wedding",
+        "date": "April 29, 2026",
+        "description": "The journey of a thousand beautiful tomorrows begins today. Hand in hand, heart in heart — we unite in the most sacred bond of marriage, cherished by family and blessed by the divine."
       }
     ]
   },
@@ -59,10 +60,19 @@
     "title": "LIVE STREAM",
     "description": "Join us Online\nCeremony at 6:00 PM",
     "cta": "WATCH LIVE",
-    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "embedUrl": "https://www.youtube.com/embed/pFnZ_zg9h9s"
+  },
+  "reception": {
+    "title": "RECEPTION",
+    "name": "Sri Venkateswara Swamy, Nalleswara Swamy Devasthana Kalyana Mandapam",
+    "address": "Madawada - Akiveedu",
+    "date": "29-04-2026",
+    "time": "07:00 PM",
+    "cta": "GET DIRECTIONS",
+    "mapLink": "https://maps.app.goo.gl/4659751234567890"
   },
   "waitingPresence": {
-    "message": "We are waiting for your presence to bless us on our special day.",
+    "message": "Under the verdant canopy.. amidst the fragrance of mango leaves.. To the soulful rhythm of Nadaswaram.. and the sacred vows of three knots.. As our children unite in the presence of Vedic hymns. We cordially seek your presence and blessings to grace this ceremony.",
     "cta": "RSVP NOW",
     "parentsTitle": "With Blessings Of",
     "brideParents": {

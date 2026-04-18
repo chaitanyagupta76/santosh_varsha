@@ -65,13 +65,6 @@ export default function Navbar() {
                         <FiGlobe className="text-sm" />
                         {lang === "en" ? "తెలుగు" : "EN"}
                     </button>
-
-                    <a
-                        href="#rsvp"
-                        className="px-5 py-2 bg-rose text-textDark font-medium text-xs tracking-[0.15em] uppercase rounded-full hover:bg-gold transition-colors hover:text-white"
-                    >
-                        {content.nav.rsvp}
-                    </a>
                 </div>
 
                 {/* Mobile Toggle */}
