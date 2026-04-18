@@ -16,6 +16,8 @@
   },
   "brideGroom": {
     "title": "BRIDE & GROOM",
+    "groomLabel": "The Groom",
+    "brideLabel": "The Bride",
     "bride": {
       "name": "Varsha",
       "description": "",

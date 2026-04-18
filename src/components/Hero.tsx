@@ -140,7 +140,7 @@ export default function Hero() {
                                         className="w-full h-full object-cover object-top"
                                     />
                                 </div>
-                                <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">The Groom</span>
+                                <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.groomLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.groom.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
                                 <p className="text-[10px] text-textLight leading-snug px-1">{content.brideGroom.groom.parents}</p>
@@ -164,7 +164,7 @@ export default function Hero() {
                                         className="w-full h-full object-cover object-top"
                                     />
                                 </div>
-                                <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">The Bride</span>
+                                <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.brideLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.bride.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
                                 <p className="text-[10px] text-textLight leading-snug px-1">{content.brideGroom.bride.parents}</p>
