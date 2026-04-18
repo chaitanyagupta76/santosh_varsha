@@ -12,12 +12,12 @@
     "/images/journey-engagement.png"
   ],
   "gallery": [
-    "/images/gallery-1.png",
     "/images/gallery-2.png",
-    "/images/gallery-3.png",
     "/images/gallery-4.png",
-    "/images/gallery-5.png",
-    "/images/gallery-6.png"
+    "/images/gallery-6.png",
+    "/images/gallery-6.jpeg",
+    "/images/gallery-7.jpeg",
+    "/images/gallery-8.jpeg"
   ],
   "parents": {
     "brideFather": "/images/bride-father.png",

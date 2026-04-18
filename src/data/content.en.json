@@ -21,12 +21,12 @@
     "bride": {
       "name": "Varsha",
       "description": "",
-      "parents": "D/O Mr. Yerra Yedukondalu & Mrs. Lakshmi"
+      "parents": "D/O Mr. Yerra Yedukondalu & \n Mrs. Lakshmi"
     },
     "groom": {
       "name": "Santosh",
       "description": "",
-      "parents": "S/O Mr. Veera Swamy & Mrs. Lakshmi"
+      "parents": "S/O Mr. Veera Swamy & \n Mrs. Lakshmi Kumari"
     }
   },
   "journey": {
@@ -51,12 +51,12 @@
   },
   "venue": {
     "title": "VENUE",
-    "name": "Sri Venkateswara Swamy, Malleswara Swamy Devasthana Kalyana Mandapam",
-    "address": "Maadiwada - Akiveedu",
+    "name": "Sri Venkateswara Swamy, Malleswara Swamyvarla Devasthana Kalyana Mandapam",
+    "address": "Maadiwada - Akividu",
     "date": "29-04-2026",
     "time": "07:53 PM",
     "cta": "GET DIRECTIONS",
-    "mapLink": "https://maps.app.goo.gl/4659751234567890"
+    "mapLink": "https://maps.app.goo.gl/sH6t1f5PpHwx9tv68"
   },
   "liveStream": {
     "title": "LIVE STREAM",
@@ -67,11 +67,11 @@
   "reception": {
     "title": "RECEPTION",
     "name": "Sri Venkateswara Swamy, Malleswara Swamy Devasthana Kalyana Mandapam",
-    "address": "Maadiwada - Akiveedu",
+    "address": "Maadiwada - Akividu",
     "date": "29-04-2026",
     "time": "07:00 PM",
     "cta": "GET DIRECTIONS",
-    "mapLink": "https://maps.app.goo.gl/4659751234567890"
+    "mapLink": "https://maps.app.goo.gl/sH6t1f5PpHwx9tv68"
   },
   "waitingPresence": {
     "message": "Under the verdant canopy.. amidst the fragrance of mango leaves.. To the soulful rhythm of Nadaswaram.. and the sacred vows of three knots.. As our children unite in the presence of Vedic hymns. We cordially seek your presence and blessings to grace this ceremony.",
@@ -79,12 +79,12 @@
     "parentsTitle": "With Blessings Of",
     "brideParents": {
       "father": "Mr. Yerra Yedukondalu",
-      "mother": "Mrs. Lakshmi",
+      "mother": "\nMrs. Lakshmi",
       "label": "Bride's Parents"
     },
     "groomParents": {
       "father": "Mr. Veera Swamy",
-      "mother": "Mrs. Lakshmi",
+      "mother": "\nMrs. Lakshmi Kumari",
       "label": "Groom's Parents"
     }
   },

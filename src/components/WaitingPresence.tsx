@@ -40,45 +40,6 @@ export default function WaitingPresence() {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-                            {/* Bride's Parents */}
-                            <motion.div
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: 0.6, delay: 0.2 }}
-                                className="bg-white/40 backdrop-blur-sm rounded-3xl p-10 border border-gold/10 shadow-sm flex flex-col items-center relative overflow-hidden group"
-                            >
-                                <div className="absolute top-0 left-0 w-full h-1 bg-gold/20"></div>
-                                
-                                <p className="text-xs tracking-[0.2em] uppercase text-gold/80 mb-8 font-sans font-semibold">
-                                    {content.waitingPresence.brideParents?.label}
-                                </p>
-
-                                {/* Elegant Square photo frame */}
-                                <div className="relative mb-8 p-3">
-                                    {/* Corner Accents */}
-                                    <CornerDecor className="absolute top-0 left-0 w-6 h-6 text-gold/60" />
-                                    <CornerDecor className="absolute top-0 right-0 w-6 h-6 text-gold/60 transform rotate-90" />
-                                    <CornerDecor className="absolute bottom-0 left-0 w-6 h-6 text-gold/60 transform -rotate-90" />
-                                    <CornerDecor className="absolute bottom-0 right-0 w-6 h-6 text-gold/60 transform rotate-180" />
-                                    
-                                    <div className="w-60 h-44 rounded-lg overflow-hidden border border-gold/30 shadow-2xl relative z-10 bg-ivory">
-                                        <div className="absolute inset-0 bg-gold/5 group-hover:bg-transparent transition-colors duration-500 z-20"></div>
-                                        <img
-                                            src={parents?.brideFamily || "/images/bride_family.png"}
-                                            alt={content.waitingPresence.brideParents?.label}
-                                            className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                                        />
-                                    </div>
-                                </div>
-
-                                <p className="font-script text-2xl text-textDark text-center leading-relaxed">
-                                    {content.waitingPresence.brideParents?.father}
-                                    <span className="text-gold/60 mx-3 italic text-lg">&</span>
-                                    {content.waitingPresence.brideParents?.mother}
-                                </p>
-                            </motion.div>
-
                             {/* Groom's Parents */}
                             <motion.div
                                 initial={{ opacity: 0, x: 20 }}
@@ -111,12 +72,53 @@ export default function WaitingPresence() {
                                     </div>
                                 </div>
 
-                                <p className="font-script text-2xl text-textDark text-center leading-relaxed">
+                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed whitespace-pre-line">
                                     {content.waitingPresence.groomParents?.father}
                                     <span className="text-gold/60 mx-3 italic text-lg">&</span>
                                     {content.waitingPresence.groomParents?.mother}
                                 </p>
                             </motion.div>
+
+                            {/* Bride's Parents */}
+                            <motion.div
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6, delay: 0.2 }}
+                                className="bg-white/40 backdrop-blur-sm rounded-3xl p-10 border border-gold/10 shadow-sm flex flex-col items-center relative overflow-hidden group"
+                            >
+                                <div className="absolute top-0 left-0 w-full h-1 bg-gold/20"></div>
+
+                                <p className="text-xs tracking-[0.2em] uppercase text-gold/80 mb-8 font-sans font-semibold">
+                                    {content.waitingPresence.brideParents?.label}
+                                </p>
+
+                                {/* Elegant Square photo frame */}
+                                <div className="relative mb-8 p-3">
+                                    {/* Corner Accents */}
+                                    <CornerDecor className="absolute top-0 left-0 w-6 h-6 text-gold/60" />
+                                    <CornerDecor className="absolute top-0 right-0 w-6 h-6 text-gold/60 transform rotate-90" />
+                                    <CornerDecor className="absolute bottom-0 left-0 w-6 h-6 text-gold/60 transform -rotate-90" />
+                                    <CornerDecor className="absolute bottom-0 right-0 w-6 h-6 text-gold/60 transform rotate-180" />
+
+                                    <div className="w-60 h-44 rounded-lg overflow-hidden border border-gold/30 shadow-2xl relative z-10 bg-ivory">
+                                        <div className="absolute inset-0 bg-gold/5 group-hover:bg-transparent transition-colors duration-500 z-20"></div>
+                                        <img
+                                            src={parents?.brideFamily || "/images/bride_family.png"}
+                                            alt={content.waitingPresence.brideParents?.label}
+                                            className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                        />
+                                    </div>
+                                </div>
+
+                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed whitespace-pre-line">
+                                    {content.waitingPresence.brideParents?.father}
+                                    <span className="text-gold/60 mx-3 italic text-lg">&</span>
+                                    {content.waitingPresence.brideParents?.mother}
+                                </p>
+                            </motion.div>
+
+
                         </div>
                     </motion.div>
                 )}
@@ -137,7 +139,7 @@ export default function WaitingPresence() {
                         <span className="w-16 h-[1px] bg-gold/30"></span>
                     </div>
 
-                    <h2 className="font-script text-xl md:text-5xl text-textDark mb-12 leading-relaxed md:leading-relaxed max-w-3xl mx-auto px-4">
+                    <h2 className="font-script text-xl md:text-5xl text-textDark mb-12 leading-relaxed md:leading-relaxed max-w-3xl mx-auto px-4 whitespace-pre-line">
                         &ldquo;{content.waitingPresence.message}&rdquo;
                     </h2>
 

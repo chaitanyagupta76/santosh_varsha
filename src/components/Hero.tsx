@@ -77,7 +77,7 @@ export default function Hero() {
                         <p className="text-sm md:text-base tracking-[0.25em] uppercase text-textLight mb-4 font-sans">
                             {content.hero.title}
                         </p>
-                        <h1 className="font-script text-6xl md:text-7xl lg:text-8xl text-textDark mb-4 leading-tight">
+                        <h1 className="font-script text-4xl md:text-7xl lg:text-8xl text-textDark mb-4 leading-tight">
                             {content.hero.couple}
                         </h1>
                         <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
@@ -143,7 +143,7 @@ export default function Hero() {
                                 <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.groomLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.groom.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
-                                <p className="text-[10px] text-textLight leading-snug px-1">{content.brideGroom.groom.parents}</p>
+                                <p className="text-[10px] text-textLight leading-snug px-1 whitespace-pre-line">{content.brideGroom.groom.parents}</p>
                             </div>
 
                             {/* Heart Divider */}
@@ -167,7 +167,7 @@ export default function Hero() {
                                 <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.brideLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.bride.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
-                                <p className="text-[10px] text-textLight leading-snug px-1">{content.brideGroom.bride.parents}</p>
+                                <p className="text-[10px] text-textLight leading-snug px-1 whitespace-pre-line">{content.brideGroom.bride.parents}</p>
                             </div>
                         </div>
                     </div>
