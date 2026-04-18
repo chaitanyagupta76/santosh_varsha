@@ -1,0 +1,14 @@
+{
+  "siteName": "Santosh & Varsha - The Wedding",
+  "seoTitle": "Santosh & Varsha - The Wedding",
+  "seoDescription": "Join us to celebrate the wedding of Santosh and Varsha",
+  "theme": {
+    "colors": {
+      "primary": "#fdfbf7",
+      "secondary": "#dfb163",
+      "accent": "#d4af37",
+      "textDark": "#4a4a4a",
+      "textLight": "#8b8b8b"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "brideGroom": "Bride & Groom",
+    "journey": "Our Journey",
+    "venue": "Venue",
+    "liveStream": "Live Stream",
+    "gallery": "Gallery"
+  },
+  "hero": {
+    "title": "THE WEDDING OF",
+    "couple": "Santosh & Varsha",
+    "date": "29-04-2026",
+    "countdown": "Our Wedding Countdown"
+  },
+  "brideGroom": {
+    "title": "BRIDE & GROOM",
+    "bride": {
+      "name": "Varsha",
+      "description": "",
+      "parents": "D/O Mr. Yerra Yedukondalu & Mrs. Lakshmi"
+    },
+    "groom": {
+      "name": "Santosh",
+      "description": "",
+      "parents": "S/O Mr. Veera Swamy & Mrs. Lakshmi"
+    }
+  },
+  "journey": {
+    "title": "OUR JOURNEY",
+    "events": [
+      {
+        "title": "First Meeting",
+        "date": "October 2023",
+        "description": "We met through mutual friends and instantly clicked over a cup of coffee."
+      },
+      {
+        "title": "The Proposal",
+        "date": "February 2025",
+        "description": "A beautiful surprise proposal overlooking the mountains."
+      },
+      {
+        "title": "Engagement",
+        "date": "June 2025",
+        "description": "We officially exchanged rings in the presence of our beloved families."
+      }
+    ]
+  },
+  "venue": {
+    "title": "VENUE",
+    "name": "Sri Venkateswara Swamy, Nalleswara Swamy Devasthana Kalyana Mandapam",
+    "address": "Madawada - Akiveedu",
+    "date": "29-04-2026",
+    "time": "07:53 PM",
+    "cta": "GET DIRECTIONS",
+    "mapLink": "https://maps.app.goo.gl/4659751234567890"
+  },
+  "liveStream": {
+    "title": "LIVE STREAM",
+    "description": "Join us Online\nCeremony at 6:00 PM",
+    "cta": "WATCH LIVE",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "waitingPresence": {
+    "message": "We are waiting for your presence to bless us on our special day.",
+    "cta": "RSVP NOW",
+    "parentsTitle": "With Blessings Of",
+    "brideParents": {
+      "father": "Mr. Yerra Yedukondalu",
+      "mother": "Mrs. Lakshmi",
+      "label": "Bride's Parents"
+    },
+    "groomParents": {
+      "father": "Mr. Veera Swamy",
+      "mother": "Mrs. Lakshmi",
+      "label": "Groom's Parents"
+    }
+  },
+  "gallery": {
+    "title": "GALLERY",
+    "subtitle": "Moments We Cherish"
+  }
+}
