@@ -137,7 +137,7 @@ export default function WaitingPresence() {
                         <span className="w-16 h-[1px] bg-gold/30"></span>
                     </div>
 
-                    <h2 className="font-script text-4xl md:text-5xl text-textDark mb-12 leading-relaxed md:leading-relaxed max-w-3xl mx-auto px-4">
+                    <h2 className="font-script text-xl md:text-5xl text-textDark mb-12 leading-relaxed md:leading-relaxed max-w-3xl mx-auto px-4">
                         &ldquo;{content.waitingPresence.message}&rdquo;
                     </h2>
 
