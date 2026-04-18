@@ -72,10 +72,10 @@ export default function WaitingPresence() {
                                     </div>
                                 </div>
 
-                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed whitespace-pre-line">
-                                    {content.waitingPresence.groomParents?.father}
-                                    <span className="text-gold/60 mx-3 italic text-lg">&</span>
-                                    {content.waitingPresence.groomParents?.mother}
+                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed flex flex-wrap justify-center items-center">
+                                    <span className="whitespace-nowrap">{content.waitingPresence.groomParents?.father}</span>
+                                    <span className="text-gold/60 mx-2 italic text-lg">&</span>
+                                    <span className="whitespace-nowrap">{content.waitingPresence.groomParents?.mother}</span>
                                 </p>
                             </motion.div>
 
@@ -111,10 +111,10 @@ export default function WaitingPresence() {
                                     </div>
                                 </div>
 
-                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed whitespace-pre-line">
-                                    {content.waitingPresence.brideParents?.father}
-                                    <span className="text-gold/60 mx-3 italic text-lg">&</span>
-                                    {content.waitingPresence.brideParents?.mother}
+                                <p className="font-script text-lg md:text-2xl text-textDark text-center leading-relaxed flex flex-wrap justify-center items-center">
+                                    <span className="whitespace-nowrap">{content.waitingPresence.brideParents?.father}</span>
+                                    <span className="text-gold/60 mx-2 italic text-lg">&</span>
+                                    <span className="whitespace-nowrap">{content.waitingPresence.brideParents?.mother}</span>
                                 </p>
                             </motion.div>
 

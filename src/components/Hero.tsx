@@ -127,9 +127,9 @@ export default function Hero() {
                         </div>
 
                         {/* Profiles Row */}
-                        <div className="flex items-start justify-center gap-3">
+                        <div className="flex items-stretch justify-center gap-3">
                             {/* Groom */}
-                            <div className="flex flex-col items-center flex-1">
+                            <div className="flex flex-col items-center flex-1 h-full justify-start min-w-0">
                                 <div
                                     className="w-full aspect-[3/4] overflow-hidden border-2 border-champagne/80 shadow-sm mb-3"
                                     style={{ borderRadius: '50% 50% 0 0 / 30% 30% 0 0', transform: 'translateZ(0)', WebkitTransform: 'translateZ(0)' }}
@@ -143,7 +143,11 @@ export default function Hero() {
                                 <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.groomLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.groom.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
-                                <p className="text-[10px] text-textLight leading-snug px-1 whitespace-pre-line">{content.brideGroom.groom.parents}</p>
+                                <div className="text-[10px] text-textLight leading-snug px-1 text-center w-full">
+                                    {content.brideGroom.groom.parents.split('\n').map((line: string, i: number) => (
+                                        <span key={i} className="block whitespace-nowrap">{line.trim()}</span>
+                                    ))}
+                                </div>
                             </div>
 
                             {/* Heart Divider */}
@@ -153,7 +157,7 @@ export default function Hero() {
                             </div>
 
                             {/* Bride */}
-                            <div className="flex flex-col items-center flex-1">
+                            <div className="flex flex-col items-center flex-1 h-full justify-start min-w-0">
                                 <div
                                     className="w-full aspect-[3/4] overflow-hidden border-2 border-champagne/80 shadow-sm mb-3"
                                     style={{ borderRadius: '50% 50% 0 0 / 30% 30% 0 0', transform: 'translateZ(0)', WebkitTransform: 'translateZ(0)' }}
@@ -167,7 +171,11 @@ export default function Hero() {
                                 <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-semibold mb-0.5">{content.brideGroom.brideLabel}</span>
                                 <p className="font-script text-2xl text-textDark leading-tight">{content.brideGroom.bride.name}</p>
                                 <div className="h-[1px] w-8 bg-gold/30 my-1.5 mx-auto"></div>
-                                <p className="text-[10px] text-textLight leading-snug px-1 whitespace-pre-line">{content.brideGroom.bride.parents}</p>
+                                <div className="text-[10px] text-textLight leading-snug px-1 text-center w-full">
+                                    {content.brideGroom.bride.parents.split('\n').map((line: string, i: number) => (
+                                        <span key={i} className="block whitespace-nowrap">{line.trim()}</span>
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
